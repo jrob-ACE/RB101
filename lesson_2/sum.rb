@@ -24,4 +24,3 @@ end
 result = sum(3, 4)
 puts result
 
-
