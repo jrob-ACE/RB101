@@ -1,9 +1,11 @@
 require 'yaml'
 require 'pry'
 
+LANGUAGE = 'en'
+
 MESSAGES = YAML.load_file('/home/tosh/Desktop/Launch_School/RB101/lesson_2/calculator_messages.yml')
 
-def messages(message, lang='es')
+def messages(message, lang=LANGUAGE)
   MESSAGES[lang][message]
 end
 
